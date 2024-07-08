@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrantes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background-color: #580a0a;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .integrantes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .integrante {
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: #7dccec;
+            cursor: pointer;
+        }
+
+        .david {
+            width: 170px;
+            height: 123px;
+            border-radius: 20px;
+        }
+
+        .vilela {
+            width: 190px;
+            height: 123px;
+            border-radius: 20px;
+        }
+
+        .denzel {
+            width: 170px;
+            height: 123px;
+            border-radius: 20px;
+        }
+
+        .elvis {
+            width: 140px;
+            height: 130px;
+            border-radius: 20px;
+        }
+
+        .jac {
+            width: 140px;
+            height: 130px;
+            border-radius: 20px;
+        }
+
+        .edy {
+            width: 140px;
+            height: 130px;
+            border-radius: 20px;
+        }
+
+
+        /*Icono de Whatsap*/
+body{
+    background-color: NavajoWhite;
+}
+
+.icono_whatsap{
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 13px;
+    right: 13px;
+    padding: 13px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.icono_whatsap:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.whatsap{
+    width: 35px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Integrantes del grupo de estudio</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <h2><u>Integrantes de la empresa</u></h2>
+        <div class="integrantes">
+            <div class="integrante">
+                <img class="elvis" src="img/elvis.jpg" alt="Elvis">
+                <h3>Elvis Eliseo Garriazo Casafranca</h3>
+                <p>"Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo"</p>
+            </div>
+            <div class="integrante">
+                <img class="david" src="img/david.jpeg" alt="David">
+                <h3>David Fernando Canales Sulca</h3>
+                <p>"Para viajar lejos no hay mejor nave que un libro"</p>
+            </div>
+            <div class="integrante">
+                <img class="vilela" src="img/vilela.jpeg" alt="Vilela">
+                <h3>Luis Vilela Reyes</h3>
+                <p>"Si quiere trabajadores creativos, dales tiempo suficiente para jugar"</p>
+            </div>
+            <div class="integrante">
+                <img class="jac" src="img/jac.jpeg" alt="Jac">
+                <h3>Jac Morales Condori</h3>
+                <p>Activo en todo momento</p>
+            </div>
+            <div class="integrante">
+                <img class="denzel" src="img/denzel.jpeg" alt="Denzel">
+                <h3>Denzel Canderon Uchuya</h3>
+                <p>"La educación ayuda a la persona a aprender a ser lo que es capaz de ser"</p>
+            </div>
+            <div class="integrante">
+                <img class="edy" src="img/edy.jpeg" alt="Edy">
+                <h3>Eddy Gabriel García Briceño</h3>
+                <p>"La enseñanza que deja huella no es la que se hace de cabeza a cabeza, sino de corazón a corazón"</p>
+            </div>
+ 
+        </div>
+    </div>
+    <div class="icono_whatsap">
+        <a>
+            <img class="whatsap" src="img/icono2.png" alt="">
+        </a>
+    </div>
+</body>
+</html>
